@@ -13,10 +13,10 @@ public class temperature {
         case "c":
         case "f":
         case "k":
-        validInput = true;
+        validInput1 = true;
         break;
         default:
-          validInput = false;
+          validInput1 = false;
           System.out.print("Enter a origin scale: ");
           oScale = in.nextLine();
       }
@@ -28,10 +28,10 @@ public class temperature {
         case "c":
         case "f":
         case "k":
-        validInput = true;
+        validInput2 = true;
         break;
         default:
-          validInput = false;
+          validInput2 = false;
           System.out.print("Enter a destination scale: ");
           dScale = in.nextLine();
       }
