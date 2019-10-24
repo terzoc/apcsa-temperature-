@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class temperature {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
@@ -34,11 +36,7 @@ public class temperature {
           dScale = in.nextLine();
       }
     }
-    if () {
 
-    }
-
-    System.out.printf("\nArea: %.2f\n", area);
 
     in.close();
   }
